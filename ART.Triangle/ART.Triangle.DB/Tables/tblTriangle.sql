@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[tblTriangle]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [SideA] DECIMAL(7, 2) NOT NULL, 
+    [SideB] DECIMAL(7, 2) NOT NULL, 
+    [SideC] DECIMAL(7, 2) NOT NULL, 
+    [UserId] UNIQUEIDENTIFIER NOT NULL, 
+    [ChangeDate] DATETIME NOT NULL
+)
