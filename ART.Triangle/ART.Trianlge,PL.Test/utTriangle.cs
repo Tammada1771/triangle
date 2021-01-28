@@ -88,5 +88,51 @@ namespace ART.Trianlge_PL.Test
             actual = dc.SaveChanges();
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void UpdateTest()
+        {
+            InsertTest();
+
+            //Select * from tbltriangle t where t.SideA = 5 and t.SideB = 12
+            tblTriangle row = dc.tblTriangles.Where(t => t.SideA == 5 && t.SideB == 12).FirstOrDefault();
+
+            int actual = 0;
+
+            if(row != null)
+            {
+                row.SideA = 6;
+                row.SideB = 7;
+                row.SideC = 8;
+                actual = dc.SaveChanges();
+
+            }
+
+            Assert.IsTrue(actual > 0);
+
+        }
+
+        [TestMethod]
+        public void DeleteTest()
+        {
+            InsertTest();
+
+            //Select * from tbltriangle t where t.SideA = 5 and t.SideB = 12
+            tblTriangle row = dc.tblTriangles.Where(t => t.SideA == 5 && t.SideB == 12).FirstOrDefault();
+
+            int actual = 0;
+
+            if (row != null)
+            {
+
+                dc.tblTriangles.Remove(row);
+                //dc.tblTriangles.RemoveRange(Array of tblTriangles);
+
+                actual = dc.SaveChanges();
+
+            }
+
+            Assert.IsTrue(actual > 0);
+        }
     }
 }

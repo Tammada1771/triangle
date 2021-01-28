@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Trianlge.PL.Test", "ART.Trianlge,PL.Test\ART.Trianlge.PL.Test.csproj", "{D9B67E9E-2EE7-4B86-9151-C6A0EDE05A60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Triangle.BL", "ART.Triangle.BL\ART.Triangle.BL.csproj", "{059153A5-24AE-4EFD-8838-0ADF0261F756}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{D9B67E9E-2EE7-4B86-9151-C6A0EDE05A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B67E9E-2EE7-4B86-9151-C6A0EDE05A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B67E9E-2EE7-4B86-9151-C6A0EDE05A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059153A5-24AE-4EFD-8838-0ADF0261F756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059153A5-24AE-4EFD-8838-0ADF0261F756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059153A5-24AE-4EFD-8838-0ADF0261F756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059153A5-24AE-4EFD-8838-0ADF0261F756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
