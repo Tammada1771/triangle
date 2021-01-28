@@ -47,6 +47,10 @@ namespace ART.Triangle.PL
                 entity.Property(e => e.SideC).HasColumnType("decimal(7, 2)");
             });
 
+            // Manually Add this for the stroed proc
+            modelBuilder.Entity<spCalcSideCResult>().HasNoKey();
+
+
             OnModelCreatingPartial(modelBuilder);
         }
 
