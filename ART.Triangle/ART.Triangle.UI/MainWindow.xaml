@@ -14,10 +14,14 @@
                 <GradientStop Color="#FF149423" Offset="0.997"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="txtSideA" HorizontalAlignment="Center" Margin="0,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
-        <TextBox x:Name="txtSideB" HorizontalAlignment="Center" Margin="0,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
+        <TextBox x:Name="txtSideA" HorizontalAlignment="Center" Margin="0,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="32"/>
+        <TextBox x:Name="txtSideB" HorizontalAlignment="Center" Margin="0,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="32"/>
         <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Center" Margin="0,290,0,0" VerticalAlignment="Top" Height="50" Width="120" RenderTransformOrigin="0.672,-0.447" Click="btnCalc_Click"/>
         <Label x:Name="lblSideC" Content="" HorizontalAlignment="Center" Margin="0,394,0,0" VerticalAlignment="Top" Width="98" Foreground="#FFFAF8F8" FontWeight="Bold"/>
+        <Label x:Name="lblSideA" Content="Enter Side A Length --&gt;" HorizontalAlignment="Left" Margin="150,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.282,-0.129" Width="144" Foreground="#FFFCF7F7" FontWeight="Bold"/>
+        <Label x:Name="lblSideB" Content="Enter Side B length --&gt;" HorizontalAlignment="Left" Margin="150,211,0,0" VerticalAlignment="Top" Width="144" FontWeight="Bold" Foreground="#FFFAF8F8"/>
+        <Label x:Name="lblTitle" Content="Pythagorean Theorem Calculator" HorizontalAlignment="Center" Margin="0,51,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.303,0.464" Width="340" Foreground="#FFF6F1F1" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="lblAnswer" Content="Answer --&gt;" HorizontalAlignment="Left" Margin="210,394,0,0" VerticalAlignment="Top" Foreground="#FFFAF5F5" Width="84"/>
 
     </Grid>
 </Window>
