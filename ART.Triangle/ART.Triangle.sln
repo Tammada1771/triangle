@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Trianlge.PL.Test", "ART
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Triangle.BL", "ART.Triangle.BL\ART.Triangle.BL.csproj", "{059153A5-24AE-4EFD-8838-0ADF0261F756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Triangle.BL.Test", "ART.Triangle.BL.Test\ART.Triangle.BL.Test.csproj", "{0A37BD55-4570-4323-897D-54131C1C4718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ART.Triangle.BL.Test", "ART.Triangle.BL.Test\ART.Triangle.BL.Test.csproj", "{0A37BD55-4570-4323-897D-54131C1C4718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ART.Triangle.UI", "ART.Triangle.UI\ART.Triangle.UI.csproj", "{0DE99E2F-C92C-442E-B707-0EE602635BCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +54,10 @@ Global
 		{0A37BD55-4570-4323-897D-54131C1C4718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A37BD55-4570-4323-897D-54131C1C4718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A37BD55-4570-4323-897D-54131C1C4718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE99E2F-C92C-442E-B707-0EE602635BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE99E2F-C92C-442E-B707-0EE602635BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE99E2F-C92C-442E-B707-0EE602635BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE99E2F-C92C-442E-B707-0EE602635BCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

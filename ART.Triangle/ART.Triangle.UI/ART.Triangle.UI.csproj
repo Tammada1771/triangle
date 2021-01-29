@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ART.Triangle.BL.Models\ART.Triangle.BL.Models.csproj" />
+    <ProjectReference Include="..\ART.Triangle.BL\ART.Triangle.BL.csproj" />
+  </ItemGroup>
+
+</Project>

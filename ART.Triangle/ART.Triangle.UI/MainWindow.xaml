@@ -1,0 +1,23 @@
+﻿<Window x:Class="ART.Triangle.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ART.Triangle.UI"
+        mc:Ignorable="d"
+        Title="Triangle" Height="500" Width="800">
+    <Grid x:Name="grdMain">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="#FF149423" Offset="0.997"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="txtSideA" HorizontalAlignment="Center" Margin="0,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
+        <TextBox x:Name="txtSideB" HorizontalAlignment="Center" Margin="0,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="32"/>
+        <Button x:Name="btnCalc" Content="Calculate" HorizontalAlignment="Center" Margin="0,290,0,0" VerticalAlignment="Top" Height="50" Width="120" RenderTransformOrigin="0.672,-0.447" Click="btnCalc_Click"/>
+        <Label x:Name="lblSideC" Content="" HorizontalAlignment="Center" Margin="0,394,0,0" VerticalAlignment="Top" Width="98" Foreground="#FFFAF8F8" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
